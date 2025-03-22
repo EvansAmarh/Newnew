@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>Hospital Appointment</h1>
+        <div class="menu-container">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="menu" id="menu">
+                <a onclick="toggleMenu()" href="#">Dashboard</a>
+                <a onclick="toggleMenu()" href="#">To-do</a>
+                <a onclick="toggleMenu()" href="#">Notifications</a>
+                <a onclick="toggleMenu()" href="#">Inbox</a>
+                <a onclick="toggleMenu()" href="#">Settings</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Welcome to Your Dashboard</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="images//download (15) 1.png" alt="General Practitioner">
+                <h3>General Practitioner Consultation</h3>
+                <p>For general health concerns.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/download (16) 1.png" alt="General Practitioner">
+                <h3>Physiotherapy</h3>
+                <p>For injuries or chronic pain.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/download (4) 2.png" alt="General Practitioner">
+                <h3>Dental Checkups</h3>
+                <p>Routine dental care and treatments.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/images (2) 1.png" alt="General Practitioner">
+                <h3>Optometry</h3>
+                <p>Vision tests and eye care.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/images (4) 1.png" alt="General Practitioner">
+                <h3>Sexual Health Services</h3>
+                <p>For STI testing, contraception advice, etc.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/download (5) 2.png" alt="General Practitioner">
+                <h3>Allergy Testing</h3>
+                <p>For managing allergies.</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+        </div>
+        <p style="padding-block: 10px; font-weight: 700;">"Your health is your greatest wealth—schedule your appointment
+            today for a better tomorrow."</p>
+    </div>
+
+    <footer class="footer">
+        <p>Contact us: info@hospital.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2025 Hospital Appointment System. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
